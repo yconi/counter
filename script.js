@@ -3,7 +3,6 @@ const number = document.getElementById("number")
 let n1 = 0
 let history = []
 
-// Verifica se há dados no localStorage e se são válidos
 const storedHistory = localStorage.getItem('history')
 if (storedHistory) {
     try {
